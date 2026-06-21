@@ -19,6 +19,8 @@ export class LoginComponent {
   ) {}
 
   login(){
+    console.log('LOGIN BUTTON CLICKED');
+
     const data ={
       username: this.username,
       password: this.password,
